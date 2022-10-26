@@ -1,0 +1,58 @@
+.container{
+    border-bottom: 2px solid blue;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 40%;
+    
+}
+ol{ 
+    list-style-type: none;
+}
+#cot1{
+    width: 20%;
+    border: 1px solid blue;
+    padding-top: 0;
+    
+
+}
+h3{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    margin-top: 0;
+}
+.right th{
+    color: white;
+    background-color: rgb(235, 163, 30);
+    text-align: center;
+    letter-spacing: 3px;
+}
+.right td,th{
+    border: 1.5px solid rgb(66, 63, 63);  
+       padding: 3px 7px 2px 7px;
+       font-size: 16px;
+}
+.cuoi{
+    text-align: center;
+}
+.right{
+border-collapse: collapse;
+width: 600px;
+margin-left: 10px;
+border: 1px solid blue;
+margin-bottom: 10px;
+}
+h1{
+    margin-left: 10px;
+    color: blue;
+    letter-spacing: 8px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+b{
+    color: blue;
+}
+

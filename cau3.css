@@ -1,0 +1,21 @@
+
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+p{
+    color: purple;
+}
+
+.list{
+    list-style-type:upper-roman;
+}
+.list1 {
+ list-style-type: symbols();
+ 
+}
+.list2{
+    list-style:circle;
+}
+span{
+    color: rgb(28, 28, 210);
+}

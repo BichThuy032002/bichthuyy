@@ -1,0 +1,58 @@
+.headd ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   
+}
+.headd li{
+    display: inline;
+    padding: 8px;
+}
+.headd{
+    text-align: center;
+}
+.product ul{
+    list-style-image: url(./media/Apple.jpg);
+    color: green;
+}
+.product span{
+    color: rgb(210, 17, 17);
+    font-weight: bold;
+}
+.container{
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: 500px;
+    flex-direction: row;
+    overflow-y: scroll;
+}
+.box{
+    position: absolute;
+      background-color: rgb(235, 206, 135);
+      width: 200px;
+      margin-left: 440px;
+      border: 2px solid green;
+     
+}
+.product{
+    position: absolute;
+    width: 400px;
+}
+.content{
+    width: 50%;
+    justify-content: center;
+    overflow-y: scroll;
+    max-width: 1200px;
+    min-width: 700px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.end{
+    color: green;
+}
+.b1 ,.b2 ,.b3{
+margin-left: 50px;
+background-color: rgb(182, 180, 180);
+}

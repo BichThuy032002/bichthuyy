@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: fle;
+}
+#container{
+    border: 1px solid blue;
+    background-color: gray;
+    float: left;
+    top: 60px;
+    text-indent: 0px;
+        }
+   ul{
+    margin: 0;
+    padding: 0;
+        list-style-type: none;
+    overflow: hidden;
+    }
+    li{
+        float: left;
+    }
+    li a {
+display: block;
+color: black;
+font-weight: bold;
+text-decoration: none;
+padding: .3em 6px;
+    }
+    li a:hover{
+      color: white;
+      background: orange;
+    }
+    li ul{
+        position: absolute;
+        display: none;
+        width: 10cm;
+    }
+    li:hover ul{
+        display: block;
+    }
+    ul li ul li {
+        width: 50%;
+        border: 1px solid green;
+    }

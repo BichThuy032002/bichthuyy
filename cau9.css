@@ -1,0 +1,58 @@
+.container{
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 auto;
+ }
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   
+}
+li{
+    display: inline;
+    padding: 8px;
+    
+}
+.line1{
+    float: right;
+}
+.input{
+    background-color: antiquewhite;
+    width: 300px;
+}
+.input:hover{
+    background-attachment: fixed;
+    background-color: blue;
+    border-color: aqua;
+    border: 2px solid white;
+}
+.lienket{
+    color: rgb(77, 77, 0);
+    font-weight: bold;
+ 
+}
+.hinh{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: -1;
+      
+}
+  .trangchu{
+    float: right;
+    
+background-color:none;
+font-size: 16px;
+
+
+  }
+.trangchu li a{
+    color: white;
+}
+.container .box1{
+background-color: blue;
+position: relative; 
+width: 60%;
+}
